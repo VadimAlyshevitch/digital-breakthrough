@@ -1,0 +1,66 @@
+.price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.form {
+    width: 450px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    flex-flow: column nowrap;
+    
+}
+.form > input {
+    margin-bottom: 5px; 
+}
+.form > p {
+    margin-top: 1rem;
+}
+#price-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 20%;
+    margin-bottom: 15px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid grey;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.3s; 
+}
+#price-btn:hover {
+    background-color: rgb(91, 114, 134);
+    color: white;
+    border-radius: 5px;
+}
+.map {
+    height: 620px;
+    width: 750px;
+    background-color: #212121;
+   
+    margin-bottom: 30px;
+}
+@media(max-width: 1000px){
+    .price {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height:auto;
+    }
+  
+}
+#ohr_yes,
+#ohr_no,
+#standart_gruz,
+#hrupkiy_gruz,
+#gruz_yes,
+#gruz_no,
+.group3,
+#spec_yes {
+    margin-left: 15px;
+}
