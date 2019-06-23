@@ -1,0 +1,32 @@
+<div class="price">
+				<div>
+					<h1 class="title" style="margin-bottom: 0px;">Рассчитать примерную стоимость</h1>
+					<form class="form">
+						<p>Укажите массу груза</p>
+						<input type="text" id="mass" name="mass" placeholder="Масса груза (т)">
+						<p>Укажите дату</p>
+						<input id="date" type="text" name="date" placeholder="Дата">
+
+						<p>Груз хрупкий или обычный?</p>
+						<input id="standart_gruz" type="radio" name="group1" value="Обычный" checked> <span>Обычный</span>
+						<input id="hrupkiy_gruz" type="radio" name="group1" value="Хрупкий"> <span>Хрупкий</span>
+
+						<p>Требуется ли сопровождение охраны?</p>
+						<input id="ohr_yes" type="radio" name="group4" value="Да" checked><span>Да</span>
+						<input id="ohr_no" type="radio" name="group4" value="Нет"> <span>Нет</span>
+
+						<p>Нужны ли услуги грузчиков?</p>
+						<input id="gruz_yes" type="radio" name="group2" value="Да" checked><span>Да</span>
+						<input id="gruz_no" type="radio" name="group2" value="Нет"> <span>Нет</span>
+
+						<p>Понадобится ли для погрузки спецтехника</p>
+						<input id="spec_yes" class="group3" type="radio" name="group3" value="Да" checked><span>Да</span>
+						<input class="group3" type="radio" name="group3" value="Нет"><span>Нет</span>
+
+						<p>Для перехода к указанию начальной и конечной точки маршрута нажмите на кнопку</p>
+						<input id="price-btn" type="button" name="price-btn" value="Перейти">
+
+					</form>	
+				</div>..
+				<div id="maps"></div>
+			</div>
